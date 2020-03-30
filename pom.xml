@@ -8,6 +8,33 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demoMVC1 Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+
+	<repositories>
+		<repository>
+  			<id>sunnygangwal</id>
+  			<url>https://pkgs.dev.azure.com/sunnygangwal/_packaging/sunnygangwal/maven/v1</url>
+  			<releases>
+    				<enabled>true</enabled>
+  			</releases>
+  			<snapshots>
+    				<enabled>true</enabled>
+  			</snapshots>
+		</repository>
+		
+	</repositories>
+	<distributionManagement>
+		<repository>
+  			<id>sunnygangwal</id>
+  			<url>https://pkgs.dev.azure.com/sunnygangwal/_packaging/sunnygangwal/maven/v1</url>
+  			<releases>
+    				<enabled>true</enabled>
+  			</releases>
+  			<snapshots>
+    				<enabled>true</enabled>
+  			</snapshots>
+		</repository>
+		
+	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
